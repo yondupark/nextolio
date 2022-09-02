@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          어디 배포 자동화 되나 보자보자 vercel 가즈아!!!
         </h1>
 
         <p className={styles.description}>
