@@ -1,0 +1,35 @@
+@import url("https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%; // 10px = 1rem
+}
+
+html,
+body,
+#__next {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Galmuri14, -apple-system, "맑은 고딕", IBM Plex Sans KR,
+        BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.mainText {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 5.2rem;
+    justify-content: center;
+    align-items: center;
+}
