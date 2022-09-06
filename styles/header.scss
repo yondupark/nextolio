@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    a {
+        display: block;
+        padding: 1.4rem;
+        color: #333;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &__wrap {
+        display: flex;
+        li {
+            margin: 0 0.4rem;
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .header {
+        a {
+            color: #fff;
+        }
+    }
+}

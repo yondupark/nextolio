@@ -15,9 +15,28 @@ body,
 #__next {
     width: 100%;
     height: 100%;
+    background: #fff;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+input,
+textarea,
+button,
+a {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 body {
+    color: #fff;
+    font-size: 1.6rem;
     font-family: Galmuri14, -apple-system, "맑은 고딕", IBM Plex Sans KR,
         BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 }
@@ -26,10 +45,24 @@ body {
     display: flex;
     width: 100%;
     height: 100%;
-    background: #000;
-    color: #fff;
     font-weight: bold;
     font-size: 5.2rem;
     justify-content: center;
     align-items: center;
+}
+
+.subWrap {
+    width: 100%;
+    text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    html,
+    body,
+    #__next {
+        background: #000;
+    }
+    body {
+        color: #fff;
+    }
 }

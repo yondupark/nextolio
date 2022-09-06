@@ -1,6 +1,8 @@
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import '../assets/scss/base/reset.scss';
+import Header from '../Components/Header/Header';
+import '../styles/reset.scss';
+import '../styles/header.scss';
 
 function MyApp({ Component, pageProps }: AppProps) {
     return (
@@ -11,6 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <meta name="description" content="Next.js를 활용한 뭔가 만드는 페이지" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+            <Header></Header>
             <Component {...pageProps} />
         </>
     );
