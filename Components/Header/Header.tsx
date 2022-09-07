@@ -16,12 +16,12 @@ function Header() {
                 </li>
                 <li>
                     <Link href="/test">
-                        <a>test</a>
+                        <a>Menu1</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/test2">
-                        <a>test2</a>
+                        <a>Menu2</a>
                     </Link>
                 </li>
             </ul>
